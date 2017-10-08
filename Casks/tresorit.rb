@@ -3,7 +3,7 @@ cask 'tresorit' do
   sha256 :no_check
 
   # installerstorage.blob.core.windows.net was verified as official when first introduced to the cask
-  url 'https://installerstorage.blob.core.windows.net/public/install/Tresorit.dmg'
+  url 'https://webapi.tresorit.com/v1/webdownloadpersonalinstaller?os=macintosh&renameto=Tresorit'
   name 'Tresorit'
   homepage 'https://tresorit.com/'
 
